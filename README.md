@@ -46,55 +46,55 @@ O projeto está dividido em duas branches para facilitar a manutenção e o dese
 ### Frontend (branch `Programa`):
 
 1. Clone a branch `Programa`:
-
+```
   git clone -b Programa https://github.com/SeuUsuario/LionsScanner.git
-
+```
 2. Acesse o diretório do projeto:
-
+```
   cd LionsScanner
-
+```
 3. Instale as dependências:
-
+```
   npm install
-
+```
   ou, se estiver usando Yarn:
-
+```
   yarn
-
+```
 4. Inicie o servidor de desenvolvimento:
-
+```
   npm run dev
-
+```
   ou com Yarn:
-
+```
   yarn dev
-
+```
 5. O aplicativo estará disponível no endereço:
-
+```
   http://localhost:5173/
-
+```
 ### Backend (branch `server`):
 
 1. Clone a branch `server`:
-
+```
   git clone -b server https://github.com/SeuUsuario/LionsScanner.git
-
+```
 2. Acesse o diretório do servidor:
-
+```
   cd LionsScanner/server
-
+```
 3. Instale as dependências do Python:
-
+```
   pip install -r requirements.txt
-
+```
 4. Execute o servidor backend:
-
+```
   python server.py
-
+```
 5. O servidor estará escutando em:
-
+```
   http://localhost:3333
-
+```
 ## Como Usar
 
 1. Abra a interface no navegador.
