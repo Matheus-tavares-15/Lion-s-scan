@@ -1,6 +1,5 @@
 <center>
-![logo](https://github.com/user-attachments/assets/14f3004e-3330-4b7e-ace3-4c0c39daa361)
-
+![logo](https://github.com/user-attachments/assets/6fa6e59a-3da7-43d8-99f8-e1f0f3c66547)
 </center>
 n's Scanner
 
