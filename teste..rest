@@ -1,0 +1,11 @@
+
+
+
+GET  http://192.168.0.12:3333/ 
+
+###
+
+
+
+
+GET  http://192.168.0.12:3333/scan?command_option=presetCommandOption&target=192.168.0.12&preset_command=nmap%20-p%201-1000

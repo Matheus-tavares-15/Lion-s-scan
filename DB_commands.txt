@@ -1,0 +1,11 @@
+nmap -sS
+nmap -p 1-1024
+nmap -sU
+nmap -O
+nmap -A
+nmap -F
+nmap -n
+nmap -Pn
+nmap --script vuln
+nmap -v
+nmap -T1
