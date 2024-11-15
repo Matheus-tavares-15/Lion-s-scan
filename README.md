@@ -29,6 +29,7 @@ Antes de começar, certifique-se de ter os seguintes programas instalados em sua
 - Node.js v12 ou superior
 - NPM ou Yarn
 - Para o servidor: Python 3.x
+- Nmap (https://nmap.org/download.html) 
 
 ## Branches
 
@@ -89,15 +90,23 @@ O projeto está dividido em duas branches para facilitar a manutenção e o dese
 ```
   cd LionsScanner/server
 ```
-3. Instale as dependências do Python:
+3.  Crie e inicie um ambiente virtual
+
+```
+python -m venv venv
+
+venv\Scripts\activate
+```
+
+4. Instale as dependências do Python:
 ```
   pip install -r requirements.txt
 ```
-4. Execute o servidor backend:
+5. Execute o servidor backend:
 ```
   python server.py
 ```
-5. O servidor estará escutando em:
+6. O servidor estará escutando em:
 ```
   http://localhost:3333
 ```
