@@ -63,7 +63,6 @@ function PortScanner() {
     fetch(url)
       .then((response) => response.json())
       .then((data) => {
-        // Aqui você pode manipular o resultado que a API retorna
         setResultado(data.scan_output);
       })
       .catch((error) => {
