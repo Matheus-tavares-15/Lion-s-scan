@@ -8,13 +8,11 @@
 
 **Lion's Scanner** é uma ferramenta de varredura de portas desenvolvida com React que permite aos usuários escanear portas e serviços em dispositivos remotos. A interface permite a inserção de um IP, seleção de comandos de escaneamento e exibição dos resultados diretamente na página, além de funcionalidades para baixar os resultados e atualizar a página.
 
-## Funcionalidades
+## Características
 
-- Validação de IP em tempo real.
 - Interface amigável para escolher diferentes comandos de varredura.
 - Exibição dos resultados do escaneamento de portas e serviços.
 - Opção para baixar os resultados do escaneamento em um arquivo `.txt`.
-- Botão de refresh para reiniciar o escaneamento.
 - Design responsivo e interativo com Tailwind CSS.
 
 ## Capturas de Tela
